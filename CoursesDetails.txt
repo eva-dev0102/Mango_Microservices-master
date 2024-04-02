@@ -1,0 +1,226 @@
+﻿﻿
+Section 1: Section 1 Introduction
+1. Introduction
+2. What we will Build
+3. Course Overview
+4. Why Microservices?
+5. Microservice Architecture
+6. Project Architecture
+7. Tools Needed
+8. What this course is NOT about?
+9. Prerequisites
+10. Project Resources
+
+Section 2: Section 2 Coupon API - Getting Started
+11. Create Empty Solution
+12. Create Folder Structure
+13. Create Coupon API
+14. Create Coupon and CouponDTO
+15. Install Nuget Packages
+16. Create AppDbContext 2min
+17. Create Coupon API Database
+18. Seed Database
+19. Get all and Get Coupon by ID
+20. Common Response
+21. AutoMapper
+
+Section 3: Section 3 Coupon API - CRUD
+23. Create Web Project
+24. Create Request and Response DTO
+25. Base Service Interface
+26. Base Service Implementation
+27. Coupon Service Interface
+28. Register Services in Program Class File
+29. Endpoints in Coupon Service
+30. Bootswatch Theme and Bootstrap Icons
+31. Coupon Controller
+32. API Call in Action
+33. Coupon Index View
+34. Create Coupon View
+35. Create Coupon in Action
+36. Delete Coupon and Error 5min
+37. Delete Coupon in Action
+38. Toastr Notifications
+
+Section 4: Section 4 Auth API
+39. Create Auth API and NuGet Packages
+40. Add DbContext and Create Identity Tables
+41. Add Custom Properties to User Table
+42. Endpoints for Login and Register
+43. Add DTO's
+44. Configure JwtOptions
+45. IAuth Service
+46. Register Endpoint in Auth Service ▸4min
+47. Register in Action
+48. Login in Action
+49. Generate Jwt Token
+50. Token in Action
+51. Assign Role
+
+Section 5: Section 5 Consuming Auth API
+52. Add DTO's in Web Project
+53. Auth Service in Web Project
+54. Auth Controller in Web Project
+55. Login and Register UI
+56. Dropdown for Role
+57. Register in Action with Role
+58. Login in Action
+59. Token Provider Services
+60. Sign in a user in .NET Identity
+61. Logout in Action
+62. Adding Roles in Token
+63. Validation with Login and Register
+64. Internal Server Error
+65. Addd Authentication to Swagger Gen
+66. Passing Token to API
+67. Clean Code
+68. Roles Demo
+
+Section 6: Section 6 Product API
+69. Product API Base Setup
+70. Assignment Product API
+71. Assignment Product API in Action
+72. Assignment - Consuming Product API Part 1
+73. Assignment - Consuming Product API Part 2
+
+Section 7: Section 7 Home Page and Details
+74. Home Controller Index Action
+75. Home Page UI
+76. Details Get Action Method
+77. Details UI
+78. Add Count in Product
+
+Section 8: Section 8 Shopping Cart
+79. Create Project and NuGet Packages 1min
+80. Create Model and DTO's
+81. Basic API Setup
+82. Create Cart API Controller
+83. Cart Upsert Logic Part 1
+84. Cart Upsert Logic Part 2
+85. Remove Cart Details
+86. Load Shopping Cart
+87. Calling Product API from Shopping Cart 1min
+88. Interservice API Call in Action
+89. Apply and Remove Coupon Endpoints
+90. Consuming Coupon API
+
+Section 9: Section 9 Shopping Cart in Web Project
+91. Add Cart Service
+92. Load Shopping Cart in Web Project
+93. Fixing a Bug
+94. Add Items to Shopping Cart
+95. Shopping Cart UI
+96. Shopping Cart Functional
+97. Delegating Handlers
+98. Shopping Cart Bug
+99. Async in Project
+100. Async vs Sync Communication in Microservice
+
+Section 10: Section 10 Service Bus
+101. Service Bus in our Architecture
+102. Create Service Bus in Azure
+103. Create Queue in Service Bus
+104. MessageBus Interface
+105. MessageBus Implementation
+106. Post Message to Service Bus
+107. More Properties in Cart
+
+Section 11: Section 11 Email API - Service Bus Receiver
+108. Setup Email and DTO's
+109. Implement Processor for Service Bus
+110. Register Methods to Processor
+111. Register Service Bus Consumer on Application
+112. Consuming Messages in Action
+113. Asynchronous Communication in Action
+114. Assignment - Register User Queue
+115. Assignment Solution Part 1 - Send Message to Queue
+116. Assignment Solution Part 2 - Processor on Register User Queue
+
+Section 12: Section 12 Checkout UI and Order API
+117. Checkout UI
+118. Dynamic Checkout UI
+119. Create Order API
+120. Add DTO's in Order API
+121. Order Header and Details Model and DTO's
+122. Order API Base Setup
+123. Mapping Config for Order API
+124. Constants in Order API
+125. Order Create Endpoint 5min
+126. Create Order Service
+127. Create Order Header
+
+Section 13: Section 13 Stripe Checkout
+128. Stripe Flow and Stripe DTO
+129. Order Confirmation Page
+130. Configure Stripe in Project 5min
+131. Create Stripe Session in Order API
+132. Call Stripe Session Endpoint from Web Project
+133. Stripe Bug
+134. Manage Stripe Coupons
+135. Stripe Coupons and Order in Action
+136. Validate Stripe Session
+137. Payment Intent and Status
+
+Section 14: Section 14 Rewards API
+138. Topic and Subscription in Service Bus
+139. Create Rewards API
+140. Setup DBContext and Rewards Table
+141. Publish Message to Topic
+142. Send Message to Topic in Action
+143. Reward Service
+144. Add Service Bus Consumer to Rewards API
+145. New Method in Email Service
+146. Consumer Order Created Subscription Message
+147. Solving Bug with Consumers
+
+Section 15: Section 15 Order Management
+148. Get All and Individual Order Endpoints
+149. Update Order Status Endpoint
+150. Add Endpoints to Order Service
+151. Order List UI
+152. Configure Database Endpoint
+153. Load Datatables
+154. Order Details Get Action
+155. Dynamic Order Details UI
+156. Dynamic Status Buttons
+157. Dynamic Status Updates
+158. Add Status Filter in URL
+159. Modify Controller to Accept Status
+160. Toggle UI Filters
+161. Filter in Action
+
+Section 16: Section 16 Upload Images
+162. Modify Product Model and DTO
+163. Modify Base Service for Form File
+164. Post Endpoint in ProductAPI
+165. Upload Image on Create Product
+166. Solve Bug with Create Product
+167. Delete Product with Image
+168. Update Product Image in Action
+169. Custom Validation with Data Annotations
+
+Section 17: Gateway
+170. Gateway Introduction
+171. Create Gateway Project
+172. Configure Application to use Ocelot
+173. Add Authentication to Ocelot
+174. Add First Ocelot Route
+175. Product Functional with Ocelot
+176. Ocelot Coupon Endpoints
+177 Ocelot Assignment
+178. Shopping Cart Endpoints with Ocelot
+179. Order Endpoints in Ocelot
+180. Clean Code
+181. Ocelot Bug
+182. Small UI Update
+
+Section 18: Azure Deployment
+183. Remove Ocelot
+184. Create Database for API's
+185. Production Appsettings with Azure SQL Database
+186. Deploy Auth API to Azure6min
+187. Host API and Modify Environment Variable
+188. Deploy Web Project
+189. Microservices Functional on Azure
+190. Deploy Gateway Project
+191. Gateway in Action on Azure
